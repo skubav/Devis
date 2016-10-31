@@ -30,8 +30,7 @@ a.i-head-url  {
     display: block;
     color: #66ccff;
     font-family: "Header_MainMenu_font";
-    padding: 10px 0px;
-    text-decoration: none;
+    padding-top: 11px;
 }
 
 p.headPlainBlue {
@@ -48,7 +47,7 @@ p.headPlainBlack {
 
 
 div.i-lang-sel-block > div {
-    padding-left: 49px;
+    padding-left: 43px;
 }
 
 p.i-head-plain-text {
@@ -95,13 +94,25 @@ input.form-control {
     margin-top: -7px;
 }
 
-.i-vstroke {
-    border-right: 1px solid black;
-    height: 30px;
+.i-log-reg-block {
+	padding-left: 702px;
 }
 
+.i-vstroke {
+    margin-top: 10px;
+    border-right: 1px solid black;
+    height: 19px;
+    width: 57px;
+    padding-left: 11px;
+}
+
+.i-vstroke a{
+	padding-top: 1px;
+}
+
+
 div.i-selbox-currency{
-    padding-left: 63px;
+    padding-left: 936px;
 }
 
 ul.i-triang li img{
