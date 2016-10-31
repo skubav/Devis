@@ -30,7 +30,8 @@ a.i-head-url  {
     display: block;
     color: #66ccff;
     font-family: "Header_MainMenu_font";
-    padding-top: 11px;
+    padding: 10px 0px;
+    text-decoration: none;
 }
 
 p.headPlainBlue {
@@ -47,7 +48,7 @@ p.headPlainBlack {
 
 
 div.i-lang-sel-block > div {
-    padding-left: 43px;
+    padding-left: 49px;
 }
 
 p.i-head-plain-text {
@@ -94,25 +95,13 @@ input.form-control {
     margin-top: -7px;
 }
 
-.i-log-reg-block {
-	padding-left: 702px;
-}
-
 .i-vstroke {
-    margin-top: 10px;
     border-right: 1px solid black;
-    height: 19px;
-    width: 57px;
-    padding-left: 11px;
+    height: 30px;
 }
-
-.i-vstroke a{
-	padding-top: 1px;
-}
-
 
 div.i-selbox-currency{
-    padding-left: 936px;
+    padding-left: 63px;
 }
 
 ul.i-triang li img{
@@ -294,6 +283,9 @@ ul.i-cart-menu >li{
     	top: 160px;
     	left: 189px;
     }
+    .slidesjs-previous:hover {
+    	background-image: url(../img/sright2.png);
+    }
     .slidesjs-next {
     	background-image: url(../img/sleft2.png);
     	position: absolute;
@@ -305,7 +297,9 @@ ul.i-cart-menu >li{
     	top: 160px;
     	right: 189px;
     }
-
+    .slidesjs-next:hover {
+    	background-image: url(../img/sright.png);
+    }
     .slidesjs-pagination {
     	position: absolute;
     	top: 390px;
@@ -449,6 +443,7 @@ ul.i-cart-menu >li{
 /**********************************************************************************************************************/
 /**************************************************Css для content*****************************************************/
 /**********************************************************************************************************************/
+
 .photo {
     display: inline-block; /* Строчно-блочный элемент */
     position: relative; /* Относительное позиционирование */
@@ -493,12 +488,16 @@ ul.i-cart-menu >li{
 	font-size: 11pt;
 }
 .productAction {
-	width: 50%;
-	height: 20px;
-	background-color: rgb(102,204,255);
+	width:230px; 
+	height: 39px;
+	line-height: 39px;
 	position: absolute;
-	top: 0
-	left: 25%;
+	background-color: rgb(102,204,255);
+	top: 176px;
+	right: 160px;
+	font-family: "Header_MainMenu_font";
+	font-size: 16pt;
+	color: white;
 }
 .coment > p {
 	margin: 0px;
@@ -515,6 +514,10 @@ ul.i-cart-menu >li{
 }
 .photo:hover .coment{
 	display: block;
+}
+.photo:hover .productAction {
+	top: 51px;
+	opacity: .9;
 }
 .photo:hover .photo > .coment > p {
 	opacity: 1;
